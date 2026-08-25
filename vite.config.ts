@@ -18,8 +18,10 @@ export default defineConfig(async ({ mode }) => {
   }
 
   return {
-    plugins,
-    envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
-    define: processEnvDefines,
-  };
+    plugins,return {
+  plugins,
+  base: '/Madhav_Traders-/',
+  envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
+  define: processEnvDefines,
+};
 })
