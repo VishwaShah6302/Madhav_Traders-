@@ -17,8 +17,7 @@ export default defineConfig(async ({ mode }) => {
     processEnvDefines[`process.env.${key}`] = JSON.stringify(value);
   }
 
-  return {
-    plugins,return {
+return {
   plugins,
   base: '/Madhav_Traders-/',
   envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
